@@ -36,18 +36,6 @@ axios.get('http://api.openeventdatabase.org/event/?what=health.blood.collect&whe
   .catch(function (error) {
     console.log(error);
   });
-
-// var client = new Twitter({
-//     consumer_key: 'Wpga3w63eduxq1MxIVQfVu0kF',
-//     consumer_secret: 'uBBnAGfo2UeVzgdynNWvyBQava47pAsTqm4YTArmyh2wzHx5xj',
-//     bearer_token: 'AAAAAAAAAAAAAAAAAAAAAOKoHgEAAAAARNsLn%2B9aBfd735dKQi%2FYZCxFSCM%3DruejCSYzR0Nc6LEoDjTflrBJqczvO1LnpaAXhAVfE4iZyfKwvK'
-// });
-// var client = new Twitter({
-//   consumer_key: 'DhyPxsRQuN5oxm41mm0ZszO86',
-//   consumer_secret: 'JvppBD93PZi2eOWs7KKFS0lSyYkpqGnRxiLOFB9rrOMokeJe7m',
-//   access_token_key: '1305168827806875648-kAPmqc6GmNX1dfPB6ZJjFMSZ2SBEwU',
-//   access_token_secret: 'OEUaG0uO79f5WMdsTQiV4uixR4QauMUcgGABTRuEPEu9N'
-// });
 // client.post('statuses/update', {status: 'I Love Twitter'},  function(error, tweet, response) {
 //     if(error) throw error;
 //     console.log(tweet);  // Tweet body.
