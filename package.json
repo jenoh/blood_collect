@@ -1,0 +1,25 @@
+{
+  "name": "blood_collect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenoh/blood_collect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenoh/blood_collect/issues"
+  },
+  "homepage": "https://github.com/jenoh/blood_collect#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dateformat": "^3.0.3",
+    "dotenv": "^8.2.0",
+    "twit": "^2.2.11"
+  }
+}
