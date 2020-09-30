@@ -18,7 +18,6 @@
   "homepage": "https://github.com/jenoh/blood_collect#readme",
   "dependencies": {
     "axios": "^0.20.0",
-    "dateformat": "^3.0.3",
     "dotenv": "^8.2.0",
     "twit": "^2.2.11"
   }
