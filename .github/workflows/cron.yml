@@ -11,3 +11,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install package and run the script
       run: npm i && node index.js
+      env:
+        CONSUMER_KEY: ${{secrets.CONSUMER_KEY}}
+        ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
+        ACCESS_TOKEN_SECRET: ${{secrets.ACCESS_TOKEN_SECRET}}
+        CONSUMER_SECRET: ${{secrets.CONSUMER_SECRET}}
+
