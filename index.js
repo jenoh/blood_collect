@@ -15,7 +15,7 @@ var T = new Twit({
 axios.get('http://api.openeventdatabase.org/event/?what=health.blood.collect&when=today&limit=500')
   .then(function (data) {
     for (const feature of data.data.features) {
-      var message = "Nouvelle collecte aujourd'hui à " + feature.properties['where:name'] + " (" + feature.properties.name + ")" + " de " + feature.properties.start.match("\T(.*)\CET")[1] + " à " + feature.properties.stop.match("\T(.*)\CET")[1];
+      var message = "Nouvelle collecte aujourd'hui à " + feature.properties['where:name'] + " (" + feature.properties.name + ")" + " de " + feature.properties.start.match("\T(.*)\CET")[1] + " à " + feature.properties.stop.match("\T(.*)\CET")[1]+ "#DonDuSang #"+feature.properties['where:name'];
       T.post('statuses/update', {
         status: message
       }, function (err, data, response) {
